@@ -3,7 +3,7 @@
     display:flex;
     width: 100vw;
     height: 80vh;
-    background : #f3e9e9;
+    background : rgb(255,254,254);
     margin-top: 7.9em;
 }
 
@@ -26,7 +26,7 @@
     display: flex;
     width: 100%;
     justify-content: flex-start;
-    margin-top:3em;
+    margin-top:4em;
     align-items: center;
 }
 
@@ -64,6 +64,8 @@
 .links{
     padding: .5em 0em;
     margin-top:.5em;
+    font-weight: 400;
+    font-size: 14px;
 }
 .dwn-btn{
     padding:.7em 2em;
@@ -73,6 +75,7 @@
     font-size:16px;
     border-radius:5px;
     border: 2px solid blue;
+    margin-top:2em;
 }
 
 .bg-beans-wrapper{
@@ -87,7 +90,7 @@
 .bean {
     position:absolute;
     border-radius:5rem;
-    box-shadow: inset 10px 10px 80px 0px rgba(0 0 0 / 0.3);
+    box-shadow: inset 5px 5px 40px 0px rgba(0 0 0 / 0.3);
     border:2px solid transparent;
 }
 
@@ -137,4 +140,11 @@
     transform: translate(-50%, -50%);
     background:rgb(248,249,250);
     box-shadow: 0px 5px 10px 0px rgba(0 0 0 / 0.3);
+}
+
+.brow-img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }

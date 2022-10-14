@@ -1,5 +1,6 @@
 import "./Intro.css"
 import firefoxLogo from "../images/firefox-logo.png"
+import browserContent from "../images/browser-content.png"
 
 export default function Intro(){
 
@@ -26,8 +27,6 @@ const IntroLeft = function(){
                 <a class="links">Download options and other languages</a>
                 <a class="links">Firefox Browser support</a>
             </div>
-
-            
         </div>
     );
 }
@@ -41,7 +40,9 @@ const IntroRight = function(){
                 <div class="bean bean-2"></div>
                 <div class="bean bean-3"></div>
             </div>
-            <div class="floating-screen"></div>
+            <div class="floating-screen">
+                <img class="brow-img" src={browserContent} />
+            </div>
         </div>
     );
 }
