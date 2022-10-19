@@ -1,0 +1,149 @@
+
+.intro-section {
+    display:flex;
+    width: 100vw;
+    height: 80vh;
+    background : rgb(255,254,254);
+    margin-top: 7.9em;
+}
+
+.intro-panes{
+    width: 30%;
+    height: 100%;
+    padding: 0 2.5em;
+    position:relative;
+}
+.intro-left{
+    margin-left:auto;
+}
+
+.intro-right{
+    
+    margin-right:auto;
+}
+
+.left-title{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top:4em;
+    align-items: center;
+}
+
+.left-title img,
+.left-title h1  {
+    margin: 0em .25em;
+}
+
+.left-title h1 span{
+    font-weight: 400;
+}
+
+.left-subtitle{
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    justify-content: flex-start;
+    width:90%;
+    line-height: 1em;
+}
+
+.left-subpara{
+    font-size:18px;
+    font-weight: 350;
+    width:90%;
+}
+
+.links-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.links{
+    padding: .5em 0em;
+    margin-top:.5em;
+    font-weight: 400;
+    font-size: 14px;
+}
+.dwn-btn{
+    padding:.7em 2em;
+    background:blue;
+    color:white;
+    font-weight: 700;
+    font-size:16px;
+    border-radius:5px;
+    border: 2px solid blue;
+    margin-top:2em;
+}
+
+.bg-beans-wrapper{
+    width:80%;
+    height:80%;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.bean {
+    position:absolute;
+    border-radius:5rem;
+}
+
+.bean-1{
+    top:0%;
+    right:55%;
+    bottom:40%;
+    left:10%;
+    transform:rotate(25deg);
+    background-color:rgb(255,197,91);
+    background-image: linear-gradient(to right, rgb(254,220,78), rgb(246,169,101));
+}
+
+.bean-2{
+    top:5%;
+    right:20%;
+    bottom:25%;
+    left:45%;
+    transform:rotate(45deg);
+    background:rgb(1,213,252);
+}
+
+.bean-3{
+    top:25%;
+    right:5%;
+    bottom:5%;
+    left:60%;
+    transform:rotate(55deg);
+    background:rgb(254,64,155);
+}
+
+.bean-4{
+    top:25%;
+    right:45%;
+    bottom:5%;
+    left:30%;
+    transform:rotate(50deg);
+    border: 2px solid pink;
+    box-shadow: none;
+}
+
+.floating-screen {
+    width:80%;
+    height:50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background:rgb(248,249,250);
+    box-shadow: 0px 5px 10px 0px rgba(0 0 0 / 0.3);
+}
+
+.brow-img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

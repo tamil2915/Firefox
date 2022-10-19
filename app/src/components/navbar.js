@@ -1,4 +1,4 @@
-import "./navbar.css"
+import "./navbar.scss"
 import logo from "../images/logo/logo.svg"
 
 export default function Navbar(){

@@ -1,4 +1,4 @@
-import "./Intro.css"
+import "./Intro.scss"
 import firefoxLogo from "../images/firefox-logo.png"
 import browserContent from "../images/browser-content.png"
 

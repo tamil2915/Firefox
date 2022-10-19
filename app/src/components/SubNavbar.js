@@ -1,4 +1,4 @@
-import "./SubNavbar.css"
+import "./SubNavbar.scss"
 
 export default function Navbar(){
 
